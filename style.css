@@ -159,3 +159,72 @@ body{
     margin-left: 90px;
 }
 /* image part end */
+
+/* Charity part start */
+.charity{
+    padding: 150px 0 100px;
+    width:80%;
+    margin:0 auto;
+}
+.charity_top{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.charity_top h1{
+    font-size: 40px;
+}
+.charity_top p{
+    font-size: 15px;
+    color: grey;
+}
+.charity_bottom{
+    display: flex;
+}
+.zakat_fund{
+    width:30%;
+    border: 1px solid grey;
+    margin: 50px 0 50px 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.267);
+}
+.zakat_fund_top{}
+.zakat_fund_top img{
+    width:100%;
+}
+.zakat_fund_bottom{
+    margin: 20px;
+}
+.zakat_fund_bottom h6{
+    font-size: 16px;
+}
+.zakat_fund_bottom p{
+    font-size: 13px;
+    color: grey;
+    line-height: 17px;
+    padding: 9px 0;
+}
+.zakat_fund_bottom a{
+    font-size: 13px;
+    color: red;
+}
+/* Charity part end */
+
+/* footer start */
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 50px 0;
+}
+footer h1{
+    color:crimson;
+    font-size: 20px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: 700;;
+}
+footer p{
+    font-size: 10px;
+    color:white;
+    padding-top: 20px;;
+}
+/* footer end */

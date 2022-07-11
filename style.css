@@ -1,3 +1,161 @@
 body{
-    background-color: aqua;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
 }
+*, html{
+    margin:0;
+}
+
+/* header start */
+.finish_evil{
+    /* background-image: url(/images/header\ image.jpg); */
+    background-image:  linear-gradient(to left, rgba(87, 84, 84, 0.226), rgba(19, 18, 18, 0.938)),
+    url('/images/header\ image.jpg');
+}
+.finish_evil_text{
+    padding: 190px 200px 200px 150px;
+    width: 50%;
+    color: white;
+}
+.finish_evil_text h1{
+    font-size:40px;
+    width:50%;
+}
+.finish_evil_text p{
+    font-size: 14px;
+    font-weight: 100;
+    padding: 20px 0;
+    width:60%;
+    margin-bottom: 20px;
+}
+.donate_button{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 5px;
+    background-image:  linear-gradient(5deg, red, orange);
+}
+/* header end */
+
+/* Depend on Donatiion part start */
+.depend_on_donation{
+   display: flex;
+}
+.depend_on_donation_left{
+   width:50%;
+   padding: 100px 75px 100px 100px;
+
+}
+.depend_on_donation_left h1{
+   font-size: 40px;
+}
+.depend_on_donation_left p{
+   font-size:14px;
+   color: grey;
+   padding-top: 20px;
+}
+.left_p{
+    font-size:15px;
+    color: grey;
+    padding-bottom: 30px;
+}
+.depend_on_donation_left a{
+   
+}
+.depend_on_donation_right{
+    width:50%;
+    padding: 80px 100px 80px 80px;
+}
+/* Depend on Donatiion part end */
+
+/* Survive part start  */
+.survive{
+    display: flex;
+}
+.survive_left{
+    width:50%;
+    padding: 80px 30px 70px 100px;
+}
+.survive_left img{
+    width:90%;
+}
+.survive_right{
+    width:50%;
+    padding: 100px 75px 100px 60px;
+}
+.survive_right h1{
+    font-size: 40px;
+    width:50%;
+}
+.survive_right p{
+    font-size:14px;
+   color: grey;
+   padding-top: 20px;
+}
+
+/* Survive part end */
+
+/* help part start */
+.help_part{
+    padding-top: 50px;
+}
+.help_part_top{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+
+}
+.help_part_top h1{
+    font-size: 40px;
+}
+.help_part_top p{
+    font-size: 14px;
+    color: grey;
+}
+.help_part_bottom{
+    margin: 0 auto;
+    width:60%;
+    padding: 50px 0 150px 0;
+    width: 54%;
+}
+.direct_help_top{
+    display:flex;
+}
+.direct_help_top_details{
+    background-color: rgba(255, 182, 193, 0.137);
+    padding: 20px 20px;
+    margin: 10px;
+}
+.direct_help_top_details img{
+    width:7%;
+}
+.direct_help_top_details h4{
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.direct_help_top_details p{
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 47px;
+}
+.direct_help_bottom{
+    display: flex;
+}
+/* help part end */
+
+
+/* image part start */
+.three_images{
+    display: flex;
+}
+.salat_images{
+    width:30%;
+}
+.salat_images img{
+    width:90%;
+    border-radius: 5px;
+    margin-left: 90px;
+}
+/* image part end */

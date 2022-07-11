@@ -10,7 +10,7 @@ body{
 .finish_evil{
     /* background-image: url(/images/header\ image.jpg); */
     background-image:  linear-gradient(to left, rgba(87, 84, 84, 0.226), rgba(19, 18, 18, 0.938)),
-    url('/images/header\ image.jpg');
+    url('images/header_image.jpg');
 }
 .finish_evil_text{
     padding: 190px 200px 200px 150px;
